@@ -1,0 +1,18 @@
+EN LA TERMINAL:
+
+//Crear un entorno virtual
+python3 -m venv <nombre_entorno>
+
+//ejemplo
+python3 -m venv C110
+
+//Activar entorno virtual
+<nombre_entorno>\Scripts\activate
+
+//ejemplo
+C110\Scripts\activate
+
+//Instalar las librerías que usamos
+//ejemplo
+pip install opencv-python
+pip install tensorflow
